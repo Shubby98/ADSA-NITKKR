@@ -48,10 +48,21 @@ int main()
     cin>>num;
 
 	
-    //int index = linear_search(arr , n  , num );
-    int index = binary_search(arr , n , num);
+    int index = linear_search(arr , n  , num );
+    //int bindex = binary_search(arr , n , num);
 	
 	cout<<"Your element is at "<<index + 1<<" position"<<endl;
 
     return 0;
 }
+
+/*
+Linear Search  
+Best Case : O(1)
+Worst Case : O(n)
+
+Binary Search 
+Best Case : O(1)
+Worst Case : O(logn)
+
+*/

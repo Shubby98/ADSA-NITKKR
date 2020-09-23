@@ -204,10 +204,10 @@ int main(){
     cout << "Enter the element: " << endl;
     for (int i = 0; i < n; i++)
     {
-        //int data;
-        //cin >> data;
-        miniheap.insert(i);
-        maxaheap.insert(i);
+        int data;
+        cin >> data;
+        miniheap.insert(data);
+        maxaheap.insert(data);
     }
     int k;
     cout << "Enter the value of k: ";

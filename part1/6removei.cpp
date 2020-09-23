@@ -209,13 +209,17 @@ int main()
     cout<<"Enter value of k"<<endl;
     cin>>k;
 
-    cout<<"All Elements of Max heap"<<endl;
+    cout<<"All Elements of Max heap Before"<<endl;
     maxaheap.print();
     cout << "kth ==> " << maxaheap.remove_ith(k) << endl;
+    cout << "All Elements of Max After Before" << endl;
+    maxaheap.print();
 
-    cout << "All Elements of Min heap" << endl;
+    cout << "All Elements of Min heap Before" << endl;
     miniheap.print();
     cout << "kth ==> " << miniheap.remove_ith(k) << endl;
+    cout << "All Elements of Min heap Before" << endl;
+    miniheap.print();
 
     return 0;
 }
